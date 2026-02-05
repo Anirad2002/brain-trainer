@@ -1,0 +1,59 @@
+{
+  "name": "Brain Trainer",
+  "short_name": "Brain Trainer",
+  "description": "Ćwicz pamięć i koncentrację za pomocą mini-gier i relaksującej muzyki.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "lang": "pl",
+  "dir": "ltr",
+  "scope": "./",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/images/icon-brain-training.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": [
+    "education",
+    "games",
+    "health"
+  ]
+}
