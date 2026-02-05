@@ -64,7 +64,7 @@
 - ✅ Lista odtwarzania
 
 ### Ustawienia
-- ✅ Zmiana języka interfejsu (🇺🇦 🇵🇱 🇬🇧)
+- ✅ Zmiana języka interfejsu (🇺🇦 🇵🇱 EN)
 - ✅ Wybór motywu (jasny/ciemny/auto)
 - ✅ Usunięcie konta
 - ✅ Informacje o wersji aplikacji
@@ -88,59 +88,6 @@
 - ✅ **Modułowa struktura** - separacja kodu na moduły
 - ✅ **MVC wzorzec** - rozdzielenie logiki, danych i widoku
 - ✅ **Offline First** - priorytet dla pracy bez internetu
-
----
-
-## 📁 Struktura projektu
-
-```
-brain-trainer/
-│
-├── 📄 index.html                          # Główna strona HTML
-├── 📄 manifest.json                       # Manifest PWA
-├── 📄 sw.js                              # Service Worker
-│
-├── 📁 assets/                            # Zasoby
-│   ├── 📁 images/                        # Obrazy
-│   │   ├── icon-brain-training.png       # Ikona aplikacji (120x120)
-│   │   ├── cat.png                       # Awatar kota (200x200)
-│   │   ├── dog.png                       # Awatar psa (200x200)
-│   │   ├── butterfly.png                 # Awatar motyla (200x200)
-│   │   └── fox.png                       # Awatar lisa (200x200)
-│   │
-│   └── 📁 music/                         # Pliki muzyczne
-│       ├── Dźwięki lasu.mp3
-│       ├── Odgłos deszczu.mp3
-│       ├── Szum morza.mp3
-│       └── Relaksująca muzyka.mp3
-│
-├── 📁 styles/                            # Style CSS
-│   ├── main.css                          # Główne style
-│   ├── auth.css                          # Style autoryzacji
-│   ├── profile.css                       # Style profilu
-│   └── games.css                         # Style gier
-│
-└── 📁 js/                                # Pliki JavaScript
-    ├── config.js                         # Konfiguracja aplikacji
-    ├── i18n.js                          # System tłumaczeń (uk, pl, en)
-    ├── db.js                            # Baza danych IndexedDB
-    ├── ui.js                            # Pomocniki UI
-    ├── router.js                        # Routing kliencki
-    ├── auth.js                          # Autoryzacja i walidacja
-    ├── app.js                           # Główny plik aplikacji
-    │
-    └── 📁 pages/                        # Strony aplikacji
-        ├── login.js                     # Strona logowania
-        ├── register.js                  # Strona rejestracji
-        ├── forgot-password.js           # Odzyskiwanie hasła
-        ├── profile.js                   # Profil użytkownika
-        ├── settings.js                  # Ustawienia
-        ├── about.js                     # O aplikacji
-        ├── games.js                     # Lista gier
-        ├── game-words.js                # Gra "Leksychny atlas"
-        ├── game-memory.js               # Gra "Neuronni pary"
-        └── music.js                     # Odtwarzacz muzyki
-```
 
 ---
 
@@ -234,7 +181,7 @@ brain-trainer/
 
 Aplikacja obsługuje trzy języki:
 | Ukraiński | uk |
-| Polski | pl |
+| Polski    | pl |
 | Angielski | en |
 
 ### Zmiana języka
@@ -286,5 +233,6 @@ Aplikacja oferuje trzy motywy kolorystyczne:
 - Przełącza między jasnym a ciemnym automatycznie
 
 ---
+
 
 ## 👨‍💻 Autor **Daryna Pasiura** 🎓 Album: 44066
