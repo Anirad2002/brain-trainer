@@ -180,9 +180,9 @@
 ## 🌍 Wielojęzyczność
 
 Aplikacja obsługuje trzy języki:
-| Ukraiński | uk |
-| Polski    | pl |
-| Angielski | en |
+Ukraiński ( uk )
+Polski    ( pl )
+Angielski ( en )
 
 ### Zmiana języka
 1. Przejdź do "Ustawienia"
@@ -236,3 +236,4 @@ Aplikacja oferuje trzy motywy kolorystyczne:
 
 
 ## 👨‍💻 Autor **Daryna Pasiura** 🎓 Album: 44066
+
